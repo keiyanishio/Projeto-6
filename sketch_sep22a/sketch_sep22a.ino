@@ -9,67 +9,64 @@ void setup() {
 
 void loop() {
     digitalWrite(4,HIGH);
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
+    delay(2000);
     digitalWrite(4,LOW);
-    
-    for(int i = 0; i < 1093; i++)
+    for(int i = 0; i < 2186; i++)
+    {
       asm("NOP");
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    digitalWrite(4,HIGH); 
-     
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    digitalWrite(4,LOW);  
-    
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");    
-    digitalWrite(4,LOW);
-    
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    digitalWrite(4,LOW);
-    
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    digitalWrite(4,LOW);
-    
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    digitalWrite(4,LOW);
-    
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    digitalWrite(4,LOW);
-    
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    digitalWrite(4,LOW);
-
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
-    for(int i = 0; i < 1093; i++)
-      asm("NOP");
+    }
+    //bit 8    
     digitalWrite(4,HIGH);
-    for(int i = 0; i < 1093; i++)
+    for(int i = 0; i < 2186; i++)
+    {
       asm("NOP");
-    for(int i = 0; i < 1093; i++)
+    }
+     //bit 7     
+    digitalWrite(4,HIGH);
+    for(int i = 0; i < 2186; i++)
+    {
       asm("NOP");
+    }
+     //bit 6        
+    digitalWrite(4,HIGH);
+    for(int i = 0; i < 2186; i++)
+    {
+      asm("NOP");
+    }
+     //bit 5     
+    digitalWrite(4,HIGH);
+    for(int i = 0; i < 2186; i++)
+    {
+      asm("NOP");
+    }
+    //bit 4      
+    digitalWrite(4,HIGH);
+    for(int i = 0; i < 2186; i++)
+    {
+      asm("NOP");
+    }
+    //bit 3       
+    digitalWrite(4,HIGH);
+    for(int i = 0; i < 2186; i++)
+    {
+      asm("NOP");
+    }
+     //bit 2      
+    digitalWrite(4,LOW);
+    for(int i = 0; i < 2186; i++)
+    {
+      asm("NOP");
+    }
+    //bit 1  
+    digitalWrite(4,LOW);
+    for(int i = 0; i < 2186; i++)
+    {
+      asm("NOP");
+    }
+//paridade      
+    digitalWrite(4,LOW);
+    for(int i = 0; i < 2186; i++)
+    {
+      asm("NOP");
+    }
 }
